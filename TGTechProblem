@@ -1,0 +1,32 @@
+print("first row value")
+
+inpum=int(input())
+
+print("p")
+inpum1=int(input())
+
+print("n")
+inpum2=int(input())
+
+print("'d")
+
+inpum3=int(input())
+
+print("p")
+inpum4=int(input())
+
+print("n")
+inpum5=int(input())
+
+print("'d")
+
+inpum6=int(input())
+
+print(inpum)
+print(inpum1,inpum2,inpum3)
+print(inpum4,inpum5,inpum6)
+
+N=((inpum1*inpum2)+(inpum3-1))
+T=(inpum4+inpum5)
+print("case1 OUtput is",N)
+print("case2 output is",T)
