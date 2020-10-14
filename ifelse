@@ -1,0 +1,30 @@
+var1=4
+var2=3
+print("enter value of var3")
+var3=int(input())
+
+if var3 >  var1:
+    print("grater")
+
+else:
+    print("smaller")
+
+    '''output:- enter value of var3
+2
+smaller'''
+var1=4
+var2=3
+print("enter value of var3")
+var3=int(input())
+
+if var3 >  var1:
+    print("grater")
+if var1==var1:
+    print("equal")
+else:
+    print("smaller")
+    '''output
+    enter value of var3
+4
+equal
+'''
