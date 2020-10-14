@@ -1,0 +1,13 @@
+print("Enter your Age")
+age = int(input())
+if age < 7 :
+    print("age should be grater then 7")
+if age > 18:
+    print("you can drive")
+elif age == 18:
+    print("we will think")
+else:
+    age < 18
+    print("you can drive")
+
+
