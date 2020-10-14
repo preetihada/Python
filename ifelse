@@ -1,3 +1,4 @@
+'''
 var1=4
 var2=3
 print("enter value of var3")
@@ -9,22 +10,52 @@ if var3 >  var1:
 else:
     print("smaller")
 
-    '''output:- enter value of var3
+   output:- enter value of var3
 2
 smaller'''
-var1=4
+
+    #used multiple if (write elif)it is short form or else if
+'''var1=4
 var2=3
 print("enter value of var3")
 var3=int(input())
 
 if var3 >  var1:
     print("grater")
-if var1==var1:
+elif var1==var1:
     print("equal")
 else:
     print("smaller")
-    '''output
+    output
     enter value of var3
 4
 equal
 '''
+# in keyworrd
+'''
+list1 = {1,5,7,9}
+print(1 in list1)
+output:-  True
+'''
+# not in keyworrd
+'''
+
+list2 = {6,7,8}
+print(3 not in list2)
+ouput:-  True
+
+'''
+
+#in and not in with if case
+'''
+list1 = {5,7,2,4}
+
+if 43 in list1:
+    print("yes it is in list")
+else:
+    print("no,not in list")
+    
+    output:- no,not in list
+    '''
+
+
