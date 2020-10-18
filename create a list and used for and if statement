@@ -1,0 +1,13 @@
+print("Welcome")
+list1={2,"Preeti",87,"Pizza","Rohan",7,3}
+
+for item in list1:
+    if type(item) ==int and item >6:
+       print(item)
+       
+       '''
+       output:- 
+       Welcome
+7
+87
+'''
